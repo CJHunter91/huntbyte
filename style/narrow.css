@@ -1,0 +1,144 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    width: 100%;
+    margin:0px;
+    line-height: 130%;
+    overflow:auto;
+    font-family:sans-serif;
+}
+
+#container{
+    width: 100%;
+    margin:0px;
+    line-height: 130%;
+    
+}
+
+#header{
+    height:auto;
+    min-height:50px;
+    width:100%;
+    margin:auto;
+    border-radius:0px;
+    }
+    
+#name{
+    padding:10px;
+    margin:auto;
+    text-align:center;
+    }
+    
+.navbar{
+    border-radius: 0px;
+    margin:0px;
+}
+
+.navbar-brand{
+    display: none;
+    border-radius: 0px;
+    margin:0px;
+}
+    
+.left{
+    display:none;
+    height: 0px;
+    margin-left:10px;
+    margin-bottom:10px;
+    margin-top:0px;
+    margin-right:10px;
+    padding:10px;
+    }
+    
+.right{
+    flex: 1 0 auto;
+    width:100%;
+    margin-left:auto;
+    margin-top:0px;
+    margin-right:auto;
+    padding:10px 10px 10px 10px;
+    font-family:sans-serif;
+    border-radius:0px;
+    
+    }
+    
+.form_message{
+    text-align:center;
+    font-size:1.1em;
+    
+    
+}
+.error{
+    text-align:centre;
+    text-decoration: none;
+}
+
+#form{
+    text-align:center;
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+    
+}
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+#submit:hover {
+	    opacity:.9;
+	} 
+    
+#cv{
+    padding:0px;
+    padding-top: 15px;
+    text-align:center;
+    color:black;
+}
+#cv a:link{
+    color:black;
+    
+}
+#cv a:visited{
+    color:black;
+    
+}
+#cv a:hover{
+    color:black;
+    font-weight:bold;
+    text-decoration: none;
+}
+    
+#footer{
+    flex-shrink: 0;
+    height: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    border-radius:0px;
+    } 
+span{
+    text-decoration: underline;
+    
+}
+  

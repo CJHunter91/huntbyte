@@ -1,0 +1,64 @@
+/* CSS Document */
+/* Mobile!, or any viewport less than 798px wide */
+
+/* Page Wrappers */
+
+#wrapperLeft {
+	display:none;
+}
+
+#wrapper {
+	flex-basis:100%;
+	font-size:small;
+}
+
+#wrapperRight {
+	display:none;
+}
+
+/* remove for mobile */
+
+.mobile{
+	display:none;
+	}
+
+
+
+/* Elements */
+
+	#uploadFiles{
+		flex-wrap:wrap;
+		}
+	#selectBox{
+		flex-wrap:wrap;
+		}
+	#wrapper #photoFrame {
+		flex-basis:250px;
+	}
+	
+	#catbar {
+		display:none;
+	}
+
+	#social {
+		display:none;
+	}
+	#adminmenu{
+		white-space:normal;
+		}
+	#adminmenu a {
+		font-size:smaller;
+	}
+	
+	#footer {
+		font-size:small;
+	}
+	
+	#photoframe div img {
+		height:69px;
+		width:69px;
+	}
+	
+	#main #post p {
+		font-size:x-small !important;
+	}

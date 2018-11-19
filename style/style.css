@@ -1,0 +1,203 @@
+:root {
+    --main-highlight: rgb(111, 112, 119);
+    --secondary-highlight: rgb(99, 146, 189);
+    --tertiary-highlight: rgba(136, 204, 241, 0.4);
+}
+
+h2, h3 {
+    color: var(--main-highlight);
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, “Roboto”, “Oxygen”,
+   “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”,
+   sans-serif;
+}
+
+#container{
+    width: 95%;
+    max-width:1200px;
+    margin: 10px auto;
+    line-height: 130%;
+}
+
+#header{
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height:50px;
+    border-radius: 5px 5px 0px 0px;
+    }
+
+.navbar-brand{
+    position: absolute;
+}
+    
+#name{
+    margin:auto; 
+    text-align:center;
+    }
+    
+
+.navbar{
+    border-radius: 0px 0px 5px 5px;
+    margin:0px;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    
+}
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    background-color: var(--secondary-highlight);
+}
+
+#login{
+    text-align:right;
+}
+
+.left{
+    float:left;
+    width:25%;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-top:10px;
+    border-right: 3px solid var(--tertiary-highlight);
+    padding:0px 10px 10px 10px;
+    overflow:auto;
+    }
+
+.left li a{
+    padding: 15px 0px;
+}
+
+#cv{
+    padding:15px;
+    text-align:center;
+    color:Black;
+}
+
+#cv a:link{
+    color:black;
+    
+}
+#cv a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+#cv a:hover{
+    color:black;
+    font-weight:bold;
+    text-decoration: none;
+    
+}
+
+#consideration{
+    display: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.alert{
+    margin-bottom: 0px;
+}
+
+.left a:hover{
+    font-weight:bold;
+    color:black;  
+}
+    
+.right{
+    margin-left:10px;
+    margin-bottom:10px;
+    margin-top:10px;
+    border-radius: 5px;
+    padding:0px 10px 10px 10px;
+    overflow:auto;
+    }
+.form_message{
+    text-align:center;
+    font-size:1.1em;
+}
+
+.error{
+    text-align:centre;
+    text-decoration: none;
+}
+
+#form{
+    text-align:center;
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+    
+}
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+#submit:hover {
+	    opacity:.9;
+	}     
+#footer{
+    border-radius: 5px;
+    background-color: var(--tertiary-highlight);
+    height: 50px;
+    }
+
+#email{
+    padding-top:15px;
+    text-align:center;
+    color:Black;
+}
+
+
+.pagination{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+    
+span{
+    text-decoration: underline;
+    
+}
+				
+				
+	table {width:98%; text-align:left; border:1px solid #DDDDDD; font-size:12px; color:#000;background:#fff; margin-bottom:10px;}
+	table th {background-color:#E5E5E5; border:1px solid #BBBBBB; padding:3px 6px; font-weight:normal; color:#000;}
+	table tr td {border:1px solid #DDDDDD; padding:5px 6px;}
+	table tr.alt td {background-color:#E2E2E2;}
+	table tr:hover {background-color:#F0F0F0; color:#000;}
