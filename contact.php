@@ -130,10 +130,5 @@ $( "li:contains('Contact')" ).addClass("active");
             <input id="submit" class="submit" type="submit" name="submit" value="Submit">
             </form>
             </div>
-            <div id="cv">
-                <a href="/files/Chris_Hunter_CV.pdf" download="Chris_Hunter_CV.pdf" onclick="myFunction()">Here is a download link for my CV</br></a>
-                </br>
-                <p id="cons" style = "display:none">Thanks for your consideration.</p>
-            </div>
         </div>
 <?php include('includes/footer.php'); ?>

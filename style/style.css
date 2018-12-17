@@ -23,11 +23,7 @@ body{
 
 #header{
     display: flex;
-    margin-left:auto;
-    margin-right:auto;
-    width:100%;
     height:50px;
-    border-radius: 5px 5px 0px 0px;
     }
 
 .navbar-brand{
@@ -71,15 +67,20 @@ body{
     float:left;
     width:25%;
     margin-right:10px;
-    margin-bottom:10px;
     margin-top:10px;
     border-right: 3px solid var(--tertiary-highlight);
     padding:0px 10px 10px 10px;
-    overflow:auto;
-    }
+}
 
 .left li a{
     padding: 15px 0px;
+}
+
+.right{
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:0px 10px 10px 10px;
+    overflow:auto;
 }
 
 #cv{
@@ -119,14 +120,6 @@ body{
     color:black;  
 }
     
-.right{
-    margin-left:10px;
-    margin-bottom:10px;
-    margin-top:10px;
-    border-radius: 5px;
-    padding:0px 10px 10px 10px;
-    overflow:auto;
-    }
 .form_message{
     text-align:center;
     font-size:1.1em;
@@ -139,7 +132,6 @@ body{
 
 #form{
     text-align:center;
-    display:block;
     margin-top:20px;
     letter-spacing:2px;
     
@@ -165,11 +157,10 @@ textarea {
     height:38px;
     border:none;
     margin-top:20px;
-    cursor:pointer;
 }
 
 #submit:hover {
-	    opacity:.9;
+    background: #c5c5c5
 	}     
 #footer{
     border-radius: 5px;
@@ -177,17 +168,11 @@ textarea {
     height: 50px;
     }
 
-#email{
-    padding-top:15px;
-    text-align:center;
-    color:Black;
-}
-
-
 .pagination{
     display: flex;
-    width: 100%;
-    align-items: center;
+    width: 60%;
+    justify-content: space-evenly;
+    padding-top: 40px;
 }
     
 span{
